@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+::-webkit-scrollbar {
+    width : 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-button {
+    background-color: black;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray   ;
+    border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.prevent-select{
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.main {
+    background-image: url(https://lh3.googleusercontent.com/drive-viewer/AFGJ81r0X3ELthQ_vn0vpn91yWV45XWahaqECZ4YHeVMPF2XpcV08t3OfCl-DCiBuxpcpcNeHZZUm1Y_06_Us2KunB4rpiJtDA=s1600);
+    background-size: cover;
+    height: 745px;
+    width:100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.header {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 100px;
+    background-blend-mode: multiply;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo { 
+    display: flex;
+    line-height: 4vmin;
+    padding-left: 120px;
+    color: white;
+    height: 25px;
+    width: 50%;
+}
+
+.rightNav {
+    display: flex;
+    float: right;
+    justify-content: end;
+    vertical-align: middle;
+    padding-right: 120px;
+    width: 50%;
+}
+
+.rightNav ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu0 {
+    padding: 20px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.MainLinks {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.MainLinks:hover {
+    text-decoration-line: underline;
+    text-decoration-color: burlywood;
+    text-underline-offset: 10px;
+}
+
+.MainLinks:link {
+    color: white;
+}
+
+.MainLinks:hover {
+    color: burlywood;
+}
+
+.MainLinks:active {
+    color: burlywood;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 745px;
+    margin-top: -100px;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+}
+.about1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;  
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn input {
+    align-items: center;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 30px;
+    border-width: 2px;
+    color: white;
+    border-color: white;
+    height: 40px;
+    width: 130px;
+    margin-top: 35px;
+    margin-inline: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: white ;
+    border-color: white;
+    color: burlywood;
+}
+.AboutUs {
+    line-height: 745px;
+    height: 745px;
+    width: 100%;
+}
+
+.AboutUs2 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.welcome {
+    color: burlywood;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.welcome2 {
+    color: black;
+    margin-top: -10 px;   
+    font-size: 35px;
+}
+
+.welcome3 {
+    padding-top: 5px;
+    padding-bottom: 40px;
+    color: darkgray;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.row0 {
+    display: inline-flex;
+    margin-inline-start: 10%;
+    margin-inline-end: 10%;
+}
+
+.row1 {
+    display: inline-flex;
+}
+
+.row2 {
+    width: 33.33%;
+    text-align: center;
+}
+
+.row3 {
+    width: 33.33%;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ViewMenu {
+    height: 1120px;
+    line-height: 1120px;
+    text-align: center;
+    width: 100%;
+}
+
+.ViewMenu2 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dish-panel {
+    padding-bottom: 16px;
+    border-bottom: 1px dashed #d8d8d8;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.dish--title {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dish--price {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #bb9356;
+    margin-bottom: 0;
+}
+
+.dish--desc {
+    text-align: left;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #a5a5a5;
+    font-size: 13px;
+}
+
+.BookATable {
+    width: 100%;
+}
+
+.BookATable2 {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.form2 {
+    display: inline-flex;
+    text-align: left;
+}
+
+.NumberofPeople {
+    display: inline-block;
+    border-color: darkgray;
+    /* padding-right: 7%; */
+}
+
+.date2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.date1 {
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    color: darkgray;
+    width: 220px;
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn2 {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 15px 328px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.ContactUs {
+    width: 100%;
+    background-color: #111111;
+    height: 240px;
+}
+
+.Contact {
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.welcome4 {
+    color: white;
+    padding-top: 25px;   
+    font-size: 35px;
+    margin-bottom: -20px;
+}
+
+.welcome5 {
+    padding-top: -10px;
+    color: lightgray;
+    font-size: 17px;
+}
+
+.welcome5 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: darkgray;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.welcome6 {
+    color: lightgray;
+    padding-top: 15px;
+}
+
+.mailto {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.end {
+    background-color: black;
+    height: 75px;
+}
+
+.copyright {
+    color: lightgray;
+}
