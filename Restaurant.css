@@ -34,7 +34,7 @@ body {
 }
 
 .main {
-    background-image: url(https://lh3.googleusercontent.com/drive-viewer/AFGJ81r0X3ELthQ_vn0vpn91yWV45XWahaqECZ4YHeVMPF2XpcV08t3OfCl-DCiBuxpcpcNeHZZUm1Y_06_Us2KunB4rpiJtDA=s1600);
+    background-image: url(https://lh3.googleusercontent.com/drive-viewer/AFGJ81qAyc6uKhxyF7pSu-15AYKco7PiutpIxcv3wgcjWjlWpIOGwGcnCJ8sb-Xv0xZIiEbzQ6gZVS31tLfcxlolI0OJe82TDw=s1600);
     background-size: cover;
     height: 745px;
     width:100%;
@@ -229,8 +229,8 @@ nav{
 }
 
 .ViewMenu {
-    height: 1120px;
-    line-height: 1120px;
+    height: 1250px;
+    line-height: 1250px;
     text-align: center;
     width: 100%;
 }
@@ -246,6 +246,7 @@ nav{
     border-bottom: 1px dashed #d8d8d8;
     margin-bottom: 20px;
     outline: none;
+    height: 80px;
 }
 
 .dish--title {
@@ -269,6 +270,7 @@ nav{
 }
 
 .dish--desc {
+    display: block;
     text-align: left;
     font-weight: 400;
     line-height: 25px;
@@ -276,6 +278,81 @@ nav{
     margin-bottom: 0;
     color: #a5a5a5;
     font-size: 13px;
+    width: 270px;
+}
+
+.add-to-cart {
+    background-color: #bb9356;
+    border: solid #bb9356;
+    border-width: 1.5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    cursor: pointer;
+    margin-top: -43px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.add-to-cart:hover {
+    box-shadow: 0.25px 0.25px 10px rgb(221, 198, 169) inset;
+}
+
+.changequant{
+    float: right;
+    width: 90px;
+}
+
+.items {
+    background-color: transparent;
+    border: solid #bb9356;
+    border-width: 1.5px;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    cursor: pointer;
+    margin-top: -43px;
+    font-size: 10px;
+    color: #bb9356;
+    text-align: center;
+}
+
+.textbox{
+    text-align: center;
+    height: 26.5px;
+
+}
+
+.text {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.plus {
+    margin-right: 0%;
+    width: 25px;
+}
+
+.sub{
+    margin-right: 65px;
+    width: 25px;
+}
+
+.quant {
+    background-color: #bb9356;
+    color: #ffffff;
+}
+
+.quant:hover {
+    box-shadow: 0.25px 0.25px 10px rgb(221, 198, 169) inset;
 }
 
 .BookATable {
