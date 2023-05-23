@@ -11,7 +11,7 @@
     <body>
         <section id="Home">  
         <div class="Home">
-            <div class="main">
+            <div class="main" background="D:\Chitkara University\Term 3\FEE\Project\2nd Phase - Copy\Background.jpg">
                 <div class="header">
                     <nav class="header-fixed">
                         <div class="logo">
@@ -54,7 +54,7 @@
                             <font face = "Elephant"><center>We are The Golden Fork!</center></font>
                         </div>
                         <div class="diff">
-                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q7KFPXBh8cdCcb_G2IU_EVqIdMiFyU4FOTUwoFkhZgm-ljDjGRV3X9aaqH-AABjAcC2TZ1r-Ec0qmHNSO2dW7VD2l69w=s2560"></center>
+                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-t0T8tYYRP-cmOTU_uoVa0QZifH-FOkEFLTmkCJdsQyqd0P29-fYvhYMfvXFeViUlr4_agXwTrz2iCb-uD_ZNMKdhGw=s2560"></center>
                         </div>
                         <div class="welcome3">
                             <font face="Berlin Sans FB"><center>The Golden Fork resturant was designed with the history in mind we have<br>created a soft industrial dining room, combined with an open kitchen, coffee<br>take out bar and on site coffee roastery.</center></font>
@@ -103,7 +103,7 @@
                             <font face = "Elephant"><center>Discover Our Menu</center></font>
                         </div>
                         <div class="diff">
-                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q7KFPXBh8cdCcb_G2IU_EVqIdMiFyU4FOTUwoFkhZgm-ljDjGRV3X9aaqH-AABjAcC2TZ1r-Ec0qmHNSO2dW7VD2l69w=s2560"></center>
+                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-t0T8tYYRP-cmOTU_uoVa0QZifH-FOkEFLTmkCJdsQyqd0P29-fYvhYMfvXFeViUlr4_agXwTrz2iCb-uD_ZNMKdhGw=s2560"></center>
                         </div>
                         <div class="welcome3">
                             <font face="Berlin Sans FB"><center>Everyone has taste, even if they don't realize it. Even if you're not a great chef, there's nothing to<br>stop you understanding the difference between what tastes good and what doesn't.</center></font>
@@ -116,34 +116,70 @@
                                     </div>
                                     <div>
                                         <div class="dish-panel">
-                                            <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
-                                            <div class="dish--price">$40.95</div>
-                                            <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
+                                            <h3 class="dish--title">Chicken Breast</h3>
+                                            <div class="dish--price">$33.95</div>
+                                            <p class="dish--desc">Paupiette of chicken, blue cheese, rosemary & beans.</p>
+                                            <input id="add-to-cart1" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart1()">
+                                            <div id="items1" style="display: none;" class="changequant">
+                                                <input id="quantadd1" class = "items quant plus" type="button" value="+" onclick="quantplus1()">
+                                                <input id="quant1" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub1" class = "items quant sub" type="button" value="-"onclick="quantsub1()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
-                                            <h3 class="dish--title">Cordon Bleu</h3>
-                                            <div class="dish--price">$19.95</div>
-                                            <p class="dish--desc">Chicken breasts, ham, pepper & Swiss cheese.</p>
+                                            <h3 class="dish--title">Salmon Steak</h3>
+                                            <div class="dish--price">$41.95</div>
+                                            <p class="dish--desc">Salmon, butter, lemon juice, onion, garlic & salad.</p>
+                                            <input id="add-to-cart2" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart2()">
+                                            <div id="items2" style="display: none;" class="changequant">
+                                                <input id="quantadd2" class = "items quant plus" type="button" value="+" onclick="quantplus2()">
+                                                <input id="quant2" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub2" class = "items quant sub" type="button" value="-"onclick="quantsub2()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
-                                            <h3 class="dish--title">Smoked Paprika Hummus</h3>
-                                            <div class="dish--price">$13.95</div>
-                                            <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                                            <h3 class="dish--title">Chicken Crispy</h3>
+                                            <div class="dish--price">$33.95</div>
+                                            <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                                            <input id="add-to-cart3" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart3()">
+                                            <div id="items3" style="display: none;" class="changequant">
+                                                <input id="quantadd3" class = "items quant plus" type="button" value="+" onclick="quantplus3()">
+                                                <input id="quant3" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub3" class = "items quant sub" type="button" value="-"onclick="quantsub3()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
-                                            <h3 class="dish--title">Beef/Pork Ribs</h3>
-                                            <div class="dish--price">$35.95</div>
-                                            <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                                            <h3 class="dish--title">Grilled Fillet</h3>
+                                            <div class="dish--price">$26.95</div>
+                                            <p class="dish--desc">Baguette, basil, arugula, olives, cherry-tomatoes.</p>
+                                            <input id="add-to-cart4" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart4()">
+                                            <div id="items4" style="display: none;" class="changequant">
+                                                <input id="quantadd4" class = "items quant plus" type="button" value="+" onclick="quantplus4()">
+                                                <input id="quant4" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub4" class = "items quant sub" type="button" value="-"onclick="quantsub4()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
-                                            <h3 class="dish--title">Creamy Smoked Salmon</h3>
-                                            <div class="dish--price">$44.95</div>
-                                            <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
-                                        </div>
-                                        <div class="dish-panel">
-                                            <h3 class="dish--title">Boerewors</h3>
+                                            <h3 class="dish--title">Roasted Steak Roulade</h3>
                                             <div class="dish--price">$29.95</div>
-                                            <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
+                                            <p class="dish--desc">Mint parsley with apple cider vinegar, salt & spices.</p>
+                                            <input id="add-to-cart5" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart5()">
+                                            <div id="items5" style="display: none;" class="changequant">
+                                                <input id="quantadd5" class = "items quant plus" type="button" value="+" onclick="quantplus5()">
+                                                <input id="quant5" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub5" class = "items quant sub" type="button" value="-"onclick="quantsub5()">
+                                            </div>
+                                        </div>
+                                        <div class="dish-panel">
+                                            <h3 class="dish--title">Sea Trout</h3>
+                                            <div class="dish--price">$44.95</div>
+                                            <p class="dish--desc">Roast trout, English asparagus, watercress & royals.</p>
+                                            <input id="add-to-cart6" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart6()">
+                                            <div id="items6" style="display: none;" class="changequant">
+                                                <input id="quantadd6" class = "items quant plus" type="button" value="+" onclick="quantplus6()">
+                                                <input id="quant6" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub6" class = "items quant sub" type="button" value="-"onclick="quantsub6()">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -156,31 +192,67 @@
                                             <h3 class="dish--title">Alder Grilled Seafood Paella</h3>
                                             <div class="dish--price">$40.95</div>
                                             <p class="dish--desc">Monkfish, onion, paella rice, garlic & smoked paprika.</p>
+                                            <input id="add-to-cart7" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart7()">
+                                            <div id="items7" style="display: none;" class="changequant">
+                                                <input id="quantadd7" class = "items quant plus" type="button" value="+" onclick="quantplus7()">
+                                                <input id="quant7" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub7" class = "items quant sub" type="button" value="-"onclick="quantsub7()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Cordon Bleu</h3>
                                             <div class="dish--price">$19.95</div>
                                             <p class="dish--desc">Chicken breasts, ham, pepper & Swiss cheese.</p>
+                                            <input id="add-to-cart8" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart8()">
+                                            <div id="items8" style="display: none;" class="changequant">
+                                                <input id="quantadd8" class = "items quant plus" type="button" value="+" onclick="quantplus8()">
+                                                <input id="quant8" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub8" class = "items quant sub" type="button" value="-"onclick="quantsub8()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Smoked Paprika Hummus</h3>
                                             <div class="dish--price">$13.95</div>
                                             <p class="dish--desc">Red peppers, roasted garlic, lemon slices, olives .</p>
+                                            <input id="add-to-cart9" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart9()">
+                                            <div id="items9" style="display: none;" class="changequant">
+                                                <input id="quantadd9" class = "items quant plus" type="button" value="+" onclick="quantplus9()">
+                                                <input id="quant9" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub9" class = "items quant sub" type="button" value="-"onclick="quantsub9()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Beef/Pork Ribs</h3>
                                             <div class="dish--price">$35.95</div>
                                             <p class="dish--desc">Beef ribs, ginger, garlic, honey, pepper & canola oil.</p>
+                                            <input id="add-to-cart10" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart10()">
+                                            <div id="items10" style="display: none;" class="changequant">
+                                                <input id="quantadd10" class = "items quant plus" type="button" value="+" onclick="quantplus10()">
+                                                <input id="quant10" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub10" class = "items quant sub" type="button" value="-"onclick="quantsub10()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Creamy Smoked Salmon</h3>
                                             <div class="dish--price">$44.95</div>
                                             <p class="dish--desc">Smoked salmon, leek, potato soup & chives.</p>
+                                            <input id="add-to-cart11" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart11()">
+                                            <div id="items11" style="display: none;" class="changequant">
+                                                <input id="quantadd11" class = "items quant plus" type="button" value="+" onclick="quantplus11()">
+                                                <input id="quant11" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub11" class = "items quant sub" type="button" value="-"onclick="quantsub11()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Boerewors</h3>
                                             <div class="dish--price">$29.95</div>
                                             <p class="dish--desc">Meat, vinger, plass wors spice & some thick.</p>
+                                            <input id="add-to-cart12" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart12()">
+                                            <div id="items12" style="display: none;" class="changequant">
+                                                <input id="quantadd12" class = "items quant plus" type="button" value="+" onclick="quantplus12()">
+                                                <input id="quant12" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub12" class = "items quant sub" type="button" value="-"onclick="quantsub12()">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -193,31 +265,67 @@
                                             <h3 class="dish--title">Traditional pancakes</h3>
                                             <div class="dish--price">$8.95</div>
                                             <p class="dish--desc">Milk, eggs, strawberries, butter & maple syrup.</p>
+                                            <input id="add-to-cart13" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart13()">
+                                            <div id="items13" style="display: none;" class="changequant">
+                                                <input id="quantadd13" class = "items quant plus" type="button" value="+" onclick="quantplus13()">
+                                                <input id="quant13" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub13" class = "items quant sub" type="button" value="-"onclick="quantsub13()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">American Brunch</h3>
                                             <div class="dish--price">$14.95</div>
                                             <p class="dish--desc">Applewood smoked bacon, tomatoes & green onions.</p>
+                                            <input id="add-to-cart14" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart14()">
+                                            <div id="items14" style="display: none;" class="changequant">
+                                                <input id="quantadd14" class = "items quant plus" type="button" value="+" onclick="quantplus14()">
+                                                <input id="quant14" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub14" class = "items quant sub" type="button" value="-"onclick="quantsub14()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Cannoli with cream cheese</h3>
                                             <div class="dish--price">$15.95</div>
                                             <p class="dish--desc">Smoked quail, crispy egg, spelt, girolles, parsley.</p>
+                                            <input id="add-to-cart15" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart15()">
+                                            <div id="items15" style="display: none;" class="changequant">
+                                                <input id="quantadd15" class = "items quant plus" type="button" value="+" onclick="quantplus15()">
+                                                <input id="quant15" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub15" class = "items quant sub" type="button" value="-"onclick="quantsub15()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Chocolate Cherry Cake</h3>
                                             <div class="dish--price">$9.95</div>
                                             <p class="dish--desc">Vanilla, milk, dark chocolate, cherries, eggs, butter.</p>
+                                            <input id="add-to-cart16" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart16()">
+                                            <div id="items16" style="display: none;" class="changequant">
+                                                <input id="quantadd16" class = "items quant plus" type="button" value="+" onclick="quantplus16()">
+                                                <input id="quant16" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub16" class = "items quant sub" type="button" value="-"onclick="quantsub16()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Pain au chocolat</h3>
                                             <div class="dish--price">$3.95</div>
                                             <p class="dish--desc">Homemade croissant contain a bar of dark chocolate.</p>
+                                            <input id="add-to-cart17" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart17()">
+                                            <div id="items17" style="display: none;" class="changequant">
+                                                <input id="quantadd17" class = "items quant plus" type="button" value="+" onclick="quantplus17()">
+                                                <input id="quant17" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub17" class = "items quant sub" type="button" value="-"onclick="quantsub17()">
+                                            </div>
                                         </div>
                                         <div class="dish-panel">
                                             <h3 class="dish--title">Tarte Tatin</h3>
                                             <div class="dish--price">$5.95</div>
                                             <p class="dish--desc">Caramelised apple tart, vanilla ice cream.</p>
+                                            <input id="add-to-cart18" class = "add-to-cart" type="button" value="ADD TO CART" onclick="addtocart18()">
+                                            <div id="items18" style="display: none;" class="changequant">
+                                                <input id="quantadd18" class = "items quant plus" type="button" value="+" onclick="quantplus18()">
+                                                <input id="quant18" class = "items textbox text" type="text" value="1" readonly>
+                                                <input id="quantsub18" class = "items quant sub" type="button" value="-"onclick="quantsub18()">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -236,7 +344,7 @@
                             <font face = "Elephant"><center>Book Your Table</center></font>
                         </div>
                         <div class="diff">
-                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q7KFPXBh8cdCcb_G2IU_EVqIdMiFyU4FOTUwoFkhZgm-ljDjGRV3X9aaqH-AABjAcC2TZ1r-Ec0qmHNSO2dW7VD2l69w=s2560"></center>
+                            <center><img height = "35px" src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q-t0T8tYYRP-cmOTU_uoVa0QZifH-FOkEFLTmkCJdsQyqd0P29-fYvhYMfvXFeViUlr4_agXwTrz2iCb-uD_ZNMKdhGw=s2560"></center>
                         </div>
                         <div class="welcome3">
                             <font face="Berlin Sans FB"><center>You can Book a table online easily in just a couple of minutes. We take reservations<br>for lunch and dinner, just check the availability of your table & book it now!</center></font>
